@@ -1,42 +1,71 @@
+<div align="center">
+
 # BoWari
 
-**Concevoir, réaliser et valoriser son immobilier en Afrique, où que l'on vive.**
+### Concevoir, réaliser et valoriser son immobilier en Afrique, où que l'on vive.
 
-BoWari est une plateforme immobilière en cours de construction, portée par **GENIUS GROUPS**. Elle a pour ambition de connecter la diaspora africaine, les propriétaires, les particuliers et les professionnels de l'immobilier autour d'un même dossier, de l'idée d'un projet jusqu'aux revenus d'un bien.
+[![Statut](https://img.shields.io/badge/statut-en_construction-F59E0B)](https://github.com/BoWari-Inc)
+[![Go](https://img.shields.io/badge/backend-Go-00ADD8?logo=go&logoColor=white)](https://go.dev)
+[![React Native](https://img.shields.io/badge/app-React_Native_·_Expo-61DAFB?logo=react&logoColor=white)](https://reactnative.dev)
+[![Next.js](https://img.shields.io/badge/web-Next.js-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/langage-TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+
+**Une plateforme de GENIUS GROUPS · Premier marché visé : Côte d'Ivoire 🇨🇮**
+
+</div>
+
+---
 
 ## Notre mission
 
 Suivre un projet immobilier à distance est difficile : les informations sont dispersées, les intervenants nombreux, et il n'est pas toujours simple de savoir ce qui a été convenu, réalisé ou payé.
 
-BoWari veut permettre à chacun de comprendre **qui intervient**, **ce qui a été fait** et **quelle décision lui revient** — simplement, depuis son téléphone ou son ordinateur.
+**BoWari veut permettre à chacun de comprendre qui intervient, ce qui a été fait et quelle décision lui revient** — simplement, depuis son téléphone ou son ordinateur.
 
-## Ce que BoWari veut rendre possible
+## La vision
 
-Nous construisons progressivement une plateforme qui accompagne le cycle de vie d'un bien :
+BoWari a pour ambition de connecter la diaspora africaine, les propriétaires, les particuliers et les professionnels de l'immobilier autour d'un même dossier — de l'idée d'un projet jusqu'aux revenus d'un bien.
 
-- **Exprimer un projet** — décrire son besoin avec ses propres mots, avec l'aide d'un assistant pour le structurer.
-- **Consulter des professionnels** — recevoir des propositions et les comparer.
-- **Suivre une réalisation** — étapes, documents et décisions réunis au même endroit.
-- **Faire vérifier** — contrôles indépendants, visites et captations sur le terrain.
-- **Gérer son patrimoine** — retrouver ses biens et leur historique.
-- **Louer ou vendre** — publier une annonce et entrer en relation.
-- **Percevoir ses revenus** — suivre les loyers et leur reversement, par l'intermédiaire de partenaires de paiement.
+```mermaid
+flowchart LR
+    A["Exprimer<br/>un projet"] --> B["Structurer<br/>avec l'assistant"]
+    B --> C["Consulter des<br/>professionnels"]
+    C --> D["Contractualiser<br/>et suivre"]
+    D --> E["Contrôler<br/>sur le terrain"]
+    E --> F["Gérer son<br/>patrimoine"]
+    F --> G["Louer ou<br/>vendre"]
+    G --> H["Percevoir<br/>ses revenus"]
+```
 
-Ces capacités sont une ambition en construction. Elles seront ouvertes progressivement, à mesure qu'elles seront prêtes et que les partenaires et conditions nécessaires seront réunis.
+Chaque étape du cycle de vie du bien est pensée pour rester lisible : le client suit, vérifie et décide.
 
-## Deux espaces
+## Nos produits
 
-### BoWari
+| | Produit | Public | Ce qu'il apporte |
+| --- | --- | --- | --- |
+| 🏠 | **BoWari** | Diaspora, propriétaires, locataires, particuliers | Projets, recherche de biens, patrimoine, locations, paiements et revenus — iOS, Android et Web, un seul compte pour tous les usages |
+| 💼 | **BoWari Pro** | Agences, constructeurs, bureaux d'études, contrôleurs | Opportunités, propositions, projets et suivi des activités professionnelles |
 
-Pour les membres de la diaspora, les propriétaires, les locataires et les particuliers.
+## Les piliers de la plateforme
 
-Une seule application, sur iOS, Android et le Web, pour ses projets, sa recherche de biens, son patrimoine, ses locations, ses paiements et ses revenus. Une même personne peut y être à la fois propriétaire, porteuse d'un projet et locataire : l'expérience s'adapte à ses besoins.
+```mermaid
+flowchart TB
+    subgraph Expérience
+        APP["Application BoWari<br/>iOS · Android · Web"]
+        PRO["BoWari Pro<br/>Web"]
+        ADMIN["Console interne"]
+    end
+    subgraph Plateforme
+        S["Services métier<br/>identité · projets · biens · location<br/>paiements · documents · IA · contrôles"]
+        C["Contrats partagés<br/>API & événements"]
+    end
+    subgraph Partenaires
+        P["Paiement · signature<br/>médias · messagerie · modèles IA"]
+    end
+    APP & PRO & ADMIN --> C --> S --> P
+```
 
-### BoWari Pro
-
-Pour les professionnels de l'immobilier : agences, constructeurs, bureaux d'études, contrôleurs et autres métiers du secteur.
-
-Un espace de travail pour présenter ses services, recevoir des opportunités, répondre par des propositions et suivre ses projets et activités.
+*Une architecture de services indépendants, chacun responsable de son domaine, qui échangent par des API et des événements documentés.*
 
 ## Ce à quoi nous tenons
 
@@ -48,8 +77,16 @@ Un espace de travail pour présenter ses services, recevoir des opportunités, r
 
 ## GENIUS GROUPS
 
-BoWari est un projet de GENIUS GROUPS, qui en assure la conception et le développement.
+BoWari est un projet de **GENIUS GROUPS**, qui en assure la conception et le développement.
 
-## À propos de cette organisation GitHub
+---
 
-Cette organisation héberge le développement de BoWari. Les dépôts de travail sont privés ; cette page en est la présentation publique.
+<div align="center">
+
+Cette organisation héberge le développement de BoWari.
+Les dépôts de travail sont privés ; cette page en est la présentation publique.
+
+*Les capacités présentées sont une ambition en construction.*
+*Elles seront ouvertes progressivement, à mesure que les conditions nécessaires seront réunies.*
+
+</div>
