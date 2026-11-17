@@ -19,4 +19,4 @@ Ce dépôt est **public**. Tout ce qui y est ajouté est visible de tous.
 - Aucun secret, aucune donnée personnelle.
 - Les capacités de BoWari sont présentées pour ce qu'elles sont : une ambition en construction.
 
-BoWari est un projet porté par GENIUS GROUPS. Aucune licence open source n'est attribuée au contenu de ce dépôt.
+BoWari est un projet de BoWari, Inc., future filiale de GENIUS GROUPS SAS. Aucune licence open source n'est attribuée au contenu de ce dépôt.

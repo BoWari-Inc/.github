@@ -77,7 +77,9 @@ flowchart TB
 
 ## GENIUS GROUPS
 
-BoWari est un projet de **GENIUS GROUPS**, qui en assure la conception et le développement.
+BoWari est un projet de **GENIUS GROUPS SAS**, qui en assure la conception et le développement.
+
+**BoWari, Inc.** est la future filiale de GENIUS GROUPS SAS, en cours d'incorporation dans l'État du Delaware (États-Unis) — une structure juridique qui lui garantit son indépendance et un cadre adapté à son développement de startup.
 
 ---
 
